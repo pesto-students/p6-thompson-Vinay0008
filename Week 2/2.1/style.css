@@ -9,13 +9,13 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: rgb(198 170 236 / 42%);
+  background:linear-gradient(rgb(67,124,205),rgb(38, 187, 130));
 }
 
 header {
   text-align: center;
   padding: 32px 16px;
-  background-color: chocolate;
+  background:linear-gradient(rgb(248, 212, 4),rgb(221, 64, 130));
   position: fixed;
   width: 100%;
 }
@@ -37,6 +37,7 @@ section {
 .sectionImage {
   width: 100%;
   border-radius: 20px;
+  box-shadow: #9e9e9e;
 
 }
 
