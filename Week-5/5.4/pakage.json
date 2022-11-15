@@ -1,0 +1,14 @@
+{
+  "name": "jest-practice",
+  "version": "1.0.0",
+  "description": "This is a jest practice tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Vinay",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
