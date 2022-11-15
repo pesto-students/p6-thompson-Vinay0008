@@ -26,4 +26,9 @@ function maxSubArraySum(a , size) {
     var n = a.length;
     maxSubArraySum(a, n);
 
+    /**
+ * Space Complexity - O(1) (As we didn't use any extra spaces which is dependent on N)
+ * Time Complexity - O(N) (As we are iterating once through the entire loop once)
+ */
+
     
