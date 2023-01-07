@@ -32,6 +32,10 @@ const InputShortner = () => {
         setOriginalLink(data?.result?.original_link);
         setShortenLink(data?.result?.full_short_link);
         setLoader(false);
+        // if(){
+
+        // }
+        // else{
         setUrls([
           ...urls,
           {
@@ -39,6 +43,7 @@ const InputShortner = () => {
             shortenLink: data?.result?.full_short_link,
           },
         ]);
+      // }
         let temp = [];
         if (localStorage.getItem("data")) {
           temp = JSON.parse(localStorage.getItem("data"));
@@ -61,6 +66,11 @@ const InputShortner = () => {
         toast.error("Something went wrong");
       }
     } catch (err) {
+      setInput("");
+        setOriginalLink("");
+        setShortenLink("");
+        setLoader(false);
+      toast.error("You are offline");
       console.error(err);
     }
   };
