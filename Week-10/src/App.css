@@ -10,6 +10,7 @@ header {
   background: rgb(2,0,36);
   background: rgb(131,58,180);
   background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  
 }
 
 .brand {
@@ -53,17 +54,11 @@ footer {
   background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
   padding: 8px;
   color: #FFFFFF;
-  position: fixed;
   width: 100%;
   top: calc(100vh - 44px);
 }
 
-/* Contact Us */
-.contactUs {
-  text-align: center;
-  padding-top: 16px;
-  font-size: 24px;
-}
+
 
 /* Home */
 .homeComponent {
@@ -218,4 +213,75 @@ a:hover {
   display: inline-block;
   animation: rotateAnim 2s linear infinite;
 }
+
+  /*  */
+  /* Contact Us */
+.contactUs {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+
+  .form {
+    max-width: 450px;
+    margin: auto;
+    border: 2px solid #0c0c0c;
+    padding: 32px;
+    border-radius: 5%;
+    padding-top: 16px;
+    
+  }
+  
+  .formTitle {
+    text-align: center;
+    padding: 16px 0px;
+  
+  }
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+  }
+  
+  input,select {
+    min-height: 30px;
+    padding: 4px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #9e9e9e;
+    width: 50%;
+  }
+  
+  select {
+    width: 50%;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    min-height: 12px;
+    width: auto;
+  }
+  
+  .agreeCheckbox {
+    display: block
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 8px 16px;
+    background: royalblue;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    color: #FFFFFF;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: blue;
+    transform: scale(1.05);
+  }
   
