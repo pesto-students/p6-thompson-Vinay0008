@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btn {
+  margin: 8px 0px;
+  outline: none;
+  padding: 12px 80px;
+  border: none;
+  border-radius: 5px;
+  
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.addBtn {
+  background-color: #0e9e3e;
+  color: #FFFFFF;
+}
+
+.resetBtn {
+  background-color: #758283;
+}
